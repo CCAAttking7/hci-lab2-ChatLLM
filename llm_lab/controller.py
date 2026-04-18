@@ -15,7 +15,7 @@ from llm_lab.state import (
     replace_session,
     session_choices,
 )
-from model_provider import ModelProvider
+from .model_provider import ModelProvider
 
 
 class ChatController:
